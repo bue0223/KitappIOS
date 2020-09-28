@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19F101" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="InfoGraphicsEntity" representedClassName="InfoGraphicsEntity" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="video" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="video_url" optional="YES" attributeType="String"/>
+        <relationship name="infoimages" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="InfoImageEntity" inverseName="owner" inverseEntity="InfoImageEntity"/>
+        <relationship name="psspItems" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PsspProductEntity" inverseName="owner" inverseEntity="PsspProductEntity"/>
+    </entity>
+    <entity name="InfoImageEntity" representedClassName="InfoImageEntity" syncable="YES">
+        <attribute name="caption" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="image_url" optional="YES" attributeType="String"/>
+        <attribute name="index" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="owner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="InfoGraphicsEntity" inverseName="infoimages" inverseEntity="InfoGraphicsEntity"/>
+        <relationship name="popupcontent" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PopupContentEntity" inverseName="owner" inverseEntity="PopupContentEntity"/>
+    </entity>
+    <entity name="MessageEntity" representedClassName="MessageEntity" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="page" optional="YES" attributeType="String"/>
+        <attribute name="screen_title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PopupContentEntity" representedClassName="PopupContentEntity" syncable="YES">
+        <attribute name="desc" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <relationship name="owner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="InfoImageEntity" inverseName="popupcontent" inverseEntity="InfoImageEntity"/>
+    </entity>
+    <entity name="PriceProgramItemEntity" representedClassName="PriceProgramItemEntity" syncable="YES">
+        <attribute name="carton_price" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="image_url" optional="YES" attributeType="String"/>
+        <attribute name="is_reward" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="is_shown" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="label" optional="YES" attributeType="String"/>
+        <attribute name="percentage_label" optional="YES" attributeType="String"/>
+        <attribute name="percentage_value" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="row" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ProductEntity" representedClassName="ProductEntity" syncable="YES">
+        <attribute name="ave_weekly_cartons" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="ave_weekly_packs" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="category" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="image_url" optional="YES" attributeType="String"/>
+        <attribute name="is_product" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="order" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="pack_price_retail" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="pack_price_wholesale" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="product_order" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="quantity_per_pack" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="ream_price_retail" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="ream_price_wholesale" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="stick_price" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="stick_price_wholesale" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="rewards" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="RewardEntity" inverseName="owner" inverseEntity="RewardEntity"/>
+    </entity>
+    <entity name="PsspProductEntity" representedClassName="PsspProductEntity" syncable="YES">
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="image_url" optional="YES" attributeType="String"/>
+        <attribute name="order" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="pack_price" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="stick_price" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="owner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="InfoGraphicsEntity" inverseName="psspItems" inverseEntity="InfoGraphicsEntity"/>
+    </entity>
+    <entity name="RewardEntity" representedClassName="RewardEntity" syncable="YES">
+        <attribute name="reward" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+        <relationship name="owner" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ProductEntity" inverseName="rewards" inverseEntity="ProductEntity"/>
+    </entity>
+    <elements>
+        <element name="InfoGraphicsEntity" positionX="-36" positionY="90" width="128" height="118"/>
+        <element name="InfoImageEntity" positionX="-27" positionY="108" width="128" height="133"/>
+        <element name="MessageEntity" positionX="-27" positionY="117" width="128" height="103"/>
+        <element name="PopupContentEntity" positionX="-9" positionY="108" width="128" height="28"/>
+        <element name="PriceProgramItemEntity" positionX="-18" positionY="135" width="128" height="193"/>
+        <element name="ProductEntity" positionX="-54" positionY="-9" width="128" height="313"/>
+        <element name="PsspProductEntity" positionX="-27" positionY="117" width="128" height="133"/>
+        <element name="RewardEntity" positionX="-54" positionY="63" width="128" height="88"/>
+    </elements>
+</model>

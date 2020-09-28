@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="89" id="KGk-i7-Jjw" customClass="PsspHeaderTableViewCell" customModule="All_in_KitApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="615" height="89"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="615" height="89"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AVAILABILITY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zIi-zh-MbJ">
+                        <rect key="frame" x="96" y="23.5" width="142" height="26"/>
+                        <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="22"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PRICING" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oKe-zI-j4H">
+                        <rect key="frame" x="433" y="23.5" width="86" height="26"/>
+                        <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="22"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cartonprice-pricedisplay" translatesAutoresizingMaskIntoConstraints="NO" id="gnE-A2-ZJK">
+                        <rect key="frame" x="414.5" y="57.5" width="123" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="123" id="aE4-gY-hM9"/>
+                            <constraint firstAttribute="height" constant="20" id="oKH-zb-QRC"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="zIi-zh-MbJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="96" id="D9f-Ec-qIj"/>
+                    <constraint firstItem="gnE-A2-ZJK" firstAttribute="top" secondItem="oKe-zI-j4H" secondAttribute="bottom" constant="8" id="FEX-Hr-l6o"/>
+                    <constraint firstItem="gnE-A2-ZJK" firstAttribute="centerX" secondItem="oKe-zI-j4H" secondAttribute="centerX" id="LlT-ke-qlA"/>
+                    <constraint firstAttribute="trailing" secondItem="oKe-zI-j4H" secondAttribute="trailing" constant="96" id="NZb-8a-3nb"/>
+                    <constraint firstItem="zIi-zh-MbJ" firstAttribute="centerY" secondItem="oKe-zI-j4H" secondAttribute="centerY" id="m87-DU-5z4"/>
+                    <constraint firstItem="oKe-zI-j4H" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" constant="-8" id="wCn-gJ-P3b"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="sectionImageView" destination="gnE-A2-ZJK" id="6hM-yr-2tZ"/>
+            </connections>
+            <point key="canvasLocation" x="351.44927536231887" y="88.058035714285708"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="cartonprice-pricedisplay" width="123" height="16"/>
+    </resources>
+</document>
