@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9004A442-263D-4F84-A0D9-8E09C0415CB1"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FFC0EA7A-0FCE-4CA9-8914-9FB104E35A7A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KitApp/Views/View Controllers/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "206"
+            endingLineNumber = "206"
+            landmarkName = "initBinding()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FFC0EA7A-0FCE-4CA9-8914-9FB104E35A7A - 3259343b9da29d1c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #12 () -&gt; () in ALL_IN_KITAPP.LoginViewController.initBinding() -&gt; ()"
+                  moduleName = "ALL-IN KITAPP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kennethesguerra/Downloads/KitApp/KitApp/Views/View%20Controllers/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "206"
+                  endingLineNumber = "206"
+                  offsetFromSymbolStart = "155">
+               </Location>
+               <Location
+                  uuid = "FFC0EA7A-0FCE-4CA9-8914-9FB104E35A7A - a28942f20a00aa95"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #2 () -&gt; () in closure #12 () -&gt; () in ALL_IN_KITAPP.LoginViewController.initBinding() -&gt; ()"
+                  moduleName = "ALL-IN KITAPP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kennethesguerra/Downloads/KitApp/KitApp/Views/View%20Controllers/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "206"
+                  endingLineNumber = "206"
+                  offsetFromSymbolStart = "41">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5206EF91-CA10-4D7E-917D-FD4CEFC3AC6F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KitApp/View Models/PriceProgramViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "195"
+            endingLineNumber = "195"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "5206EF91-CA10-4D7E-917D-FD4CEFC3AC6F - d1104c0e0cd55bc3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ALL_IN_KITAPP.PriceProgramViewModel.compute(quantityTotal: __C.NSDecimal, firstRow: ALL_IN_KITAPP.PsspAutoComputeCellViewModel, rows: Swift.Array&lt;ALL_IN_KITAPP.PsspAutoComputeCellViewModel&gt;, header: ALL_IN_KITAPP.PsspHeaderAutoComputeTextFieldCellViewModel) -&gt; ()"
+                  moduleName = "ALL-IN KITAPP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kennethesguerra/Downloads/KitApp/KitApp/View%20Models/PriceProgramViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "196"
+                  endingLineNumber = "196"
+                  offsetFromSymbolStart = "11027">
+               </Location>
+               <Location
+                  uuid = "5206EF91-CA10-4D7E-917D-FD4CEFC3AC6F - 550b185bff2719ad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (ALL_IN_KITAPP.PsspAutoComputeCellViewModel) -&gt; Swift.Bool in ALL_IN_KITAPP.PriceProgramViewModel.compute(quantityTotal: __C.NSDecimal, firstRow: ALL_IN_KITAPP.PsspAutoComputeCellViewModel, rows: Swift.Array&lt;ALL_IN_KITAPP.PsspAutoComputeCellViewModel&gt;, header: ALL_IN_KITAPP.PsspHeaderAutoComputeTextFieldCellViewModel) -&gt; ()"
+                  moduleName = "ALL-IN KITAPP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kennethesguerra/Downloads/KitApp/KitApp/View%20Models/PriceProgramViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "196"
+                  endingLineNumber = "196"
+                  offsetFromSymbolStart = "41">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CC2C6229-1856-43E1-95D0-94DE42B3A18F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KitApp/View Models/PriceProgramViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "212"
+            endingLineNumber = "212"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C2884F0A-5755-4D67-815B-CCC84FA437AF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KitApp/View Models/PriceProgramViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "217"
+            endingLineNumber = "217"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "C2884F0A-5755-4D67-815B-CCC84FA437AF - d1104c0e0cd55bc3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ALL_IN_KITAPP.PriceProgramViewModel.compute(quantityTotal: __C.NSDecimal, firstRow: ALL_IN_KITAPP.PsspAutoComputeCellViewModel, rows: Swift.Array&lt;ALL_IN_KITAPP.PsspAutoComputeCellViewModel&gt;, header: ALL_IN_KITAPP.PsspHeaderAutoComputeTextFieldCellViewModel) -&gt; ()"
+                  moduleName = "ALL-IN KITAPP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kennethesguerra/Downloads/KitApp/KitApp/View%20Models/PriceProgramViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "218"
+                  endingLineNumber = "218"
+                  offsetFromSymbolStart = "18909">
+               </Location>
+               <Location
+                  uuid = "C2884F0A-5755-4D67-815B-CCC84FA437AF - 483c62dda99dabb0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #6 (ALL_IN_KITAPP.PsspAutoComputeCellViewModel) -&gt; Swift.Bool in ALL_IN_KITAPP.PriceProgramViewModel.compute(quantityTotal: __C.NSDecimal, firstRow: ALL_IN_KITAPP.PsspAutoComputeCellViewModel, rows: Swift.Array&lt;ALL_IN_KITAPP.PsspAutoComputeCellViewModel&gt;, header: ALL_IN_KITAPP.PsspHeaderAutoComputeTextFieldCellViewModel) -&gt; ()"
+                  moduleName = "ALL-IN KITAPP"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kennethesguerra/Downloads/KitApp/KitApp/View%20Models/PriceProgramViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "218"
+                  endingLineNumber = "218"
+                  offsetFromSymbolStart = "41">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
