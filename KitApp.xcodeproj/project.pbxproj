@@ -1509,7 +1509,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.2.17;
+				CURRENT_PROJECT_VERSION = 1.2.18;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_ASSET_PATHS = KitApp/AppIcon;
 				DEVELOPMENT_TEAM = 57Y5L4R45B;
@@ -1519,7 +1519,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2.18;
+				MARKETING_VERSION = 1.2.19;
 				PRODUCT_BUNDLE_IDENTIFIER = com.amplab.kitapp;
 				PRODUCT_NAME = "ALL-IN KITAPP";
 				SWIFT_VERSION = 5.0;
@@ -1533,7 +1533,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.2.17;
+				CURRENT_PROJECT_VERSION = 1.2.18;
 				DEVELOPMENT_ASSET_PATHS = KitApp/AppIcon;
 				DEVELOPMENT_TEAM = 57Y5L4R45B;
 				INFOPLIST_FILE = KitApp/Info.plist;
@@ -1542,7 +1542,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2.18;
+				MARKETING_VERSION = 1.2.19;
 				PRODUCT_BUNDLE_IDENTIFIER = com.amplab.kitapp;
 				PRODUCT_NAME = "ALL-IN KITAPP";
 				SWIFT_VERSION = 5.0;
